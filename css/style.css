@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.header-area {
+    background: url(../images/bannar.png) no-repeat scroll center center / cover;
+    height: 480px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-content h2 {
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 94px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FF5E19;
+}
+
+.header-content p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+section.players-area {
+    padding: 74px 0 140px;
+    background: #151515;
+}
+
+input.form-control {
+    width: 121px;
+    height: 42px;
+    border: 1px solid #fff;
+    background: #0D0D0D;
+    border-radius: 0;
+}
+
+input.form-control::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF !important;
+}
+
+.form-floating>.form-control:focus {
+    color: #FFFFFF !important;
+    background: #0D0D0D;
+}
+
+.form-floating p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AFAFAF;
+}
+
+.players-budget,
+.selected-players {
+    background: #0D0D0D;
+    padding: 25px 20px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.players-budget button {
+    display: inline-block;
+    width: 100%;
+    height: 42px;
+    left: 1041px;
+    top: 1103px;
+    background: #015196;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+input.form-control {
+    width: 121px;
+    height: 42px !important;
+    padding: 0 12px !important;
+}
+
+.form-floating p {
+    margin-bottom: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AFAFAF;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.selected-players ul {
+    padding: 0;
+    margin: 0;
+}
+
+.selected-players ul li {
+    list-style: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.total-calculate p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AFAFAF;
+}
+
+.total-calculate p span {
+    color: #FF5E19;
+}
+
+.card {
+    background: #0D0D0D;
+    border: 1px solid #434343;
+}
+
+h5.card-title {
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card .btn {
+    width: 100%;
+    height: 42px;
+    background: #015196;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #B3B3B3;
+}
+
+
+.footer-area {
+    border-top: 1px solid #717171;
+    padding: 45px 0;
+    background: #151515;
+    color: #FFFFFF;
+}
