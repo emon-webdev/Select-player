@@ -1,28 +1,42 @@
+const playersItems = [];
+
+
+
+function selectedItem(element){
+    const playerName = (element.parentNode.children[0].innerText)
+
+    const playerObj = {
+        playerName: playerName,
+    };
+    
+
+    console.log(playerObj)
+    return playerName;
+    
+
+
+}
+
+
+
+
 const btnCalculate = document.getElementById('btn-calculate');
 btnCalculate.addEventListener('click', () => {
     const perPlayerInput = document.getElementById('per-player');
-    const perPlayer = parseFloat(perPlayerInput.value);
-
-    
-    console.log(perPlayer)
+    const perPlayer = parseInt(perPlayerInput.value);
 
     const playerExpensesInput = document.getElementById('player-expenses');
-    const playerExpenses = p;
+    const playerExpenses = playerExpensesInput.innerText;
+    console.log(playerExpenses, perPlayer)
     
     
 
+    playerExpensesInput.innerText = perPlayer;
 
 
 
-
-
-
-
-
-
-    console.log('hello btn')
     perPlayerInput.value= '';
-
+    playerExpensesInput.value= '';
 
 
 })
@@ -30,7 +44,7 @@ btnCalculate.addEventListener('click', () => {
 
 
 
-
+// 1: 00 class
 
 
 
