@@ -45,6 +45,7 @@ btnCalculate.addEventListener('click', () => {
         alert('is not a number')
         return;
     }
+    perPlayerInput.value= '';
     playerExpensesInput.innerText = perPlayerCost;
 })
 
@@ -68,7 +69,7 @@ totalCostBtn.addEventListener('click', function () {
 
     managerField.value = '';
     coachField.value = '';
-    console.log(totalCost)
+
 })
 
 
