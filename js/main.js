@@ -19,7 +19,7 @@ function display(selectPlayers, element) {
         element.setAttribute('disabled', true)
     }
     else {
-        alert('enough selected')
+        alert('You have selected five players')
     }
 }
 
@@ -42,7 +42,7 @@ btnCalculate.addEventListener('click', () => {
     const playerExpensesInput = document.getElementById('player-expenses');
     const perPlayerCost = totalSelectedPlayerValue * perPlayer;
     if(isNaN(perPlayerCost)){
-        alert('is not a number')
+        alert('Please type valid input')
         return;
     }
     perPlayerInput.value= '';
@@ -61,7 +61,7 @@ totalCostBtn.addEventListener('click', function () {
     const playerExpenses = parseInt(playerExpensesField.innerText);
     const totalCostCalculate = managerCost + coachCost + playerExpenses;
     if(isNaN(totalCostCalculate)){
-        alert('is not a number')
+        alert('type valid input')
         return;
     }
     const totalCost = document.getElementById('total-cost');
@@ -75,6 +75,11 @@ totalCostBtn.addEventListener('click', function () {
 
 
 
+const btnSelector = document.getElementById('btn-selector');
+btnSelector.addEventListener('click', () => {
+    console.log('click all btn')
+    
+})
 
 
 
